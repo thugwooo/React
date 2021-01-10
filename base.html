@@ -20,7 +20,24 @@
         <div id="container"></div>
         <script type="text/babel">
             
+            class asdf extends React.Component{
+                render(){
+                    var circleStyle = {
+                        padding: 10,
+                        margine: 20,
+                        display: "inline-block",
+                        backgroundColor: this.props.bgColor,
+                        borderRadius: "50%",
+                        width: 100,
+                        height: 100,
+                    };
 
+                    return(
+                        <div style = {circleStyle}>
+                        </div>
+                    );
+                }
+            }
 
             ReactDOM.render();
         </script>
