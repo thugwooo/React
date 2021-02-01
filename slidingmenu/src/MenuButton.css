@@ -1,4 +1,4 @@
-#roundButton{
+#roundButton {
     background-color: #96d9ff;
     margin-bottom: 20px;
     width: 50px;
@@ -9,7 +9,7 @@
     transition: all .2s cubic-bezier(0, 1.26, .8, 1.28);
 }
 
-#roundButton:hover {
+#roundButton:hover{
     background-color: #96d9ff;
     cursor: pointer;
     border-color: #003557;
