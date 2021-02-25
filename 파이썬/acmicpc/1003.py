@@ -6,4 +6,4 @@ while T>0:
 
 
 def fibo(n):
-    
+    return 0
