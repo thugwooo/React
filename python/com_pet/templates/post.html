@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+</head>
+<body>
+    <form action="/post" method="post">
+        <br>
+	    	<input type = "radio" name="pet" value="강아지">강아지
+	    	<input type = "radio" name="pet" value="고양이">고양이
+        <p> 반려동물의 이름이 뭔가요?</p> 
+            <input type = "text" name="name">
+	    <p>생일을 입력해주세요</p>
+		<input type="date" name="date">
+		
+		
+	    <p> 성별 </p>
+	    	<input type="radio" name="sex" value=1> 남아
+	    	<input type="radio" name="sex" value=2> 여아
+
+	    <p>중성화 여부 </p>
+	    	<label><input type="radio" name="neutering" value=1> 예</label>
+		    <label><input type="radio" name="neutering" value=2> 아니오 </label>
+
+	    <p> 몸무게 입력(kg)</p>
+	        <input type="text" name="weight">
+
+        <p> 특이사항    </p>       
+            <label><input type="checkbox" name="when" value="임신기"> 임신기</label>
+            <label><input type="checkbox" name="when" value="수유기"> 수유기</label>
+            <label><input type="checkbox" name="when" value=""> 없음</label>
+            
+        
+        <p>좋아하는 맛 인가요?</p>
+            <label><input type="checkbox" name="flavor" value="닭"> 닭</label>
+            <label><input type="checkbox" name="flavor" value="돼지"> 돼지</label>
+            <label><input type="checkbox" name="flavor" value="소"> 소</label>
+            <label><input type="checkbox" name="flavor" value="오리"> 오리</label>
+            <label><input type="checkbox" name="flavor" value="양"> 양</label>
+            <label><input type="checkbox" name="flavor" value="칠면조"> 칠면조</label>
+            <label><input type="checkbox" name="flavor" value="연어"> 연어</label>
+            <label><input type="checkbox" name="flavor" value="참치"> 참치</label>
+            <label><input type="checkbox" name="flavor" value="어류"> 어류</label>
+            <label><input type="checkbox" name="flavor" value="감자"> 감자</label>
+            <label><input type="checkbox" name="flavor" value="고구마"> 고구마</label>
+            <label><input type="checkbox" name="flavor" value="옥수수"> 옥수수</label>
+            <label><input type="checkbox" name="flavor" value="완두콩"> 완두콩</label>
+            <label><input type="checkbox" name="flavor" value="곡류"> 곡류</label>
+            <label><input type="checkbox" name="flavor" value="과일"> 과일</label>
+            <label><input type="checkbox" name="flavor" value="채소"> 채소</label>
+            <label><input type="checkbox" name="flavor" value=""> 없음</label>
+        
+        <p>어떤 알러지 인가요?</p>
+            <label><input type="checkbox" name="alg" value="닭"> 닭</label>
+            <label><input type="checkbox" name="alg" value="돼지"> 돼지</label>
+            <label><input type="checkbox" name="alg" value="소"> 소</label>
+            <label><input type="checkbox" name="alg" value="칠면조"> 칠면조</label>
+            <label><input type="checkbox" name="alg" value="양"> 양</label>
+            <label><input type="checkbox" name="alg" value="오리"> 오리</label>
+            <label><input type="checkbox" name="alg" value="연어"> 연어</label>
+            <label><input type="checkbox" name="alg" value="참치"> 참치</label>
+            <label><input type="checkbox" name="alg" value="어류"> 어류</label>
+            <label><input type="checkbox" name="alg" value="유제품"> 유제품</label>
+            <label><input type="checkbox" name="alg" value="밀"> 밀</label>
+            <label><input type="checkbox" name="alg" value="계란"> 계란</label>
+            <label><input type="checkbox" name="alg" value="콩"> 콩</label>
+            <label><input type="checkbox" name="alg" value="옥수수"> 옥수수</label>
+            <label><input type="checkbox" name="alg" value="쌀"> 쌀</label>
+            <label><input type="checkbox" name="alg" value="곡류"> 곡류</label>
+            <label><input type="checkbox" name="alg" value="아마"> 아마</label>
+            <label><input type="checkbox" name="alg" value="효모"> 효모</label>
+            <label><input type="checkbox" name="alg" value="과일"> 과일</label>
+            <label><input type="checkbox" name="alg" value=""> 없음</label>
+
+		<br>
+        <input type="submit" value="제출">
+    </form>
+</body>
+</html>

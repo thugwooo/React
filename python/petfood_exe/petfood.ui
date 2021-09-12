@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>889</width>
+    <height>730</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>19</y>
+     <width>831</width>
+     <height>390</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>강아지 종 선택</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="breed_1">
+        <property name="text">
+         <string>1. 슈나우저</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="breed_2">
+        <property name="text">
+         <string>2. 말티즈</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="breed_3">
+        <property name="text">
+         <string>3. 요크셔테리어</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="breed_4">
+        <property name="text">
+         <string>4. 시츄</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="breed_5">
+        <property name="text">
+         <string>5. 푸들</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="breed_6">
+        <property name="text">
+         <string>6. 비숑프리제</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="breed_7">
+        <property name="text">
+         <string>7. 닥스훈트</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="breed_8">
+        <property name="text">
+         <string>8. 프렌치 불독</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="breed_9">
+        <property name="text">
+         <string>9. 포메라니안</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="breed_10">
+        <property name="text">
+         <string>10. 그 외</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>선호 단백질 선택</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="like_1">
+        <property name="text">
+         <string>1. 닭</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="like_2">
+        <property name="text">
+         <string>2. 칠면조</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="like_3">
+        <property name="text">
+         <string>3. 오리</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="like_4">
+        <property name="text">
+         <string>4. 돼지</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="like_5">
+        <property name="text">
+         <string>5. 옥수수</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="like_6">
+        <property name="text">
+         <string>6. 어류</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="like_7">
+        <property name="text">
+         <string>7. 가금류</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="like_8">
+        <property name="text">
+         <string>8. 연어</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="like_9">
+        <property name="text">
+         <string>9. 양</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="like_10">
+        <property name="text">
+         <string>10. 소</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="like_11">
+        <property name="text">
+         <string>11. 감자</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="like_12">
+        <property name="text">
+         <string>12. 병아리콩</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="like_13">
+        <property name="text">
+         <string>13. 흰살생선</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="like_14">
+        <property name="text">
+         <string>14. 해당없음</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_6">
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>비선호 단백질 선택</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="unlike_1">
+        <property name="text">
+         <string>1. 닭</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="unlike_2">
+        <property name="text">
+         <string>2. 칠면조</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="unlike_3">
+        <property name="text">
+         <string>3. 오리</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="unlike_4">
+        <property name="text">
+         <string>4. 돼지</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="unlike_5">
+        <property name="text">
+         <string>5. 옥수수</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="unlike_6">
+        <property name="text">
+         <string>6. 어류</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="unlike_7">
+        <property name="text">
+         <string>7. 가금류</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="unlike_8">
+        <property name="text">
+         <string>8. 연어</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="unlike_9">
+        <property name="text">
+         <string>9. 양</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="unlike_10">
+        <property name="text">
+         <string>10. 소</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="unlike_11">
+        <property name="text">
+         <string>11. 감자</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="unlike_12">
+        <property name="text">
+         <string>12. 병아리콩</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="unlike_13">
+        <property name="text">
+         <string>13. 흰살생선</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="unlike_14">
+        <property name="text">
+         <string>14. 해당없음</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_8">
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>알러지 선택</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="all_1">
+        <property name="text">
+         <string>1. 유제품</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="all_2">
+        <property name="text">
+         <string>2. 양</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="all_3">
+        <property name="text">
+         <string>3. 콩</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="all_4">
+        <property name="text">
+         <string>4. 대두</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="all_5">
+        <property name="text">
+         <string>5. 밀</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="all_6">
+        <property name="text">
+         <string>6. 쌀</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="all_7">
+        <property name="text">
+         <string>7. 닭</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="all_8">
+        <property name="text">
+         <string>8. 오리</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="all_9">
+        <property name="text">
+         <string>9. 칠면조</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="all_10">
+        <property name="text">
+         <string>10. 가금류</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="all_11">
+        <property name="text">
+         <string>11. 돼지</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="all_12">
+        <property name="text">
+         <string>12. 소</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="all_13">
+        <property name="text">
+         <string>13. 감자</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="all_14">
+        <property name="text">
+         <string>14. 귀리</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="all_15">
+        <property name="text">
+         <string>15. 아마</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="all_16">
+        <property name="text">
+         <string>16. 달걀</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="all_17">
+        <property name="text">
+         <string>17. 해당없음</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_9">
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>크기 선택</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="size_1">
+        <property name="text">
+         <string>1. 초소형</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="size_2">
+        <property name="text">
+         <string>2. 소형</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="size_3">
+        <property name="text">
+         <string>3. 중형</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="size_4">
+        <property name="text">
+         <string>4. 대형</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="size_5">
+        <property name="text">
+         <string>5. 초대형</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_10">
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>급여 시기</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="when_1">
+        <property name="text">
+         <string>1. 임신말기 / 수유기</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="when_2">
+        <property name="text">
+         <string>2. 이유기자견</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="when_3">
+        <property name="text">
+         <string>3. 중성화 이후</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="when_4">
+        <property name="text">
+         <string>4. 해당없음</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTextEdit" name="year_1">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>430</y>
+     <width>81</width>
+     <height>61</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>425</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>연령(개월 수)</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>424</x>
+     <y>412</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>입력 완료</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="food_1">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>510</y>
+     <width>801</width>
+     <height>181</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
